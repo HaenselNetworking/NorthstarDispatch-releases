@@ -1,0 +1,205 @@
+{
+  "schema": "northstar.airframe/1",
+  "id": "flightfx-hawker-800xp",
+  "version": 1,
+  "sha256": "c689702061f89bb11b1d1d9b3414f07e00396b3ffc333e4da3489c7895d340c5",
+  "displayName": "FlightFX Hawker 800XP",
+  "icaoType": "H25B",
+  "perfProfileId": "flightfx-hawker-800xp",
+  "name": {
+    "value": "FlightFX Hawker 800XP",
+    "source": "manual",
+    "note": "FlightFX Hawker 800XP manual, specification page. Catalog name is the sim add-on."
+  },
+  "cruiseKt": {
+    "value": 447,
+    "source": "manual",
+    "note": "Max cruise 447–449 KTAS. Manual specification page. Stored as 447."
+  },
+  "longRangeCruiseKt": {
+    "value": 402,
+    "source": "manual",
+    "note": "Long-range cruise table, 22,000 lb, FL390 and FL410, ISA."
+  },
+  "averageCruiseKt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "cruiseMach": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "climbRateFpm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "descentRateFpm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "rangeNm": {
+    "value": 2540,
+    "source": "manual",
+    "note": "NBAA IFR range. Manual specification page."
+  },
+  "ferryRangeNm": {
+    "value": null,
+    "source": "manual",
+    "note": "Not stated as a single ferry figure in the manual."
+  },
+  "fuelBurnLbHr": {
+    "value": 1824,
+    "source": "manual",
+    "note": "High-speed cruise, 22,000 lb, FL370, ISA, 447 KTAS. Manual cruise table. Stored in pounds per hour."
+  },
+  "maxFuelLb": {
+    "value": 10000,
+    "source": "manual",
+    "note": "Spec table 10,000 lb. Manual specification page. Fuel is stored in pounds."
+  },
+  "fuelDensityLbPerGal": {
+    "value": 6.7,
+    "source": "derived",
+    "note": "Derived from the EFB screen: 9,692 lb = 1,447 US gal. Not stated in the manual."
+  },
+  "mtowLb": {
+    "value": 28000,
+    "source": "manual",
+    "note": "Manual specification page."
+  },
+  "mlwLb": {
+    "value": 23350,
+    "source": "manual",
+    "note": "Manual specification page."
+  },
+  "mzfwLb": {
+    "value": 18450,
+    "source": "manual",
+    "note": "Manual specification page."
+  },
+  "mrwLb": {
+    "value": 28120,
+    "source": "manual",
+    "note": "Max ramp weight. Manual specification page."
+  },
+  "oewLb": {
+    "value": null,
+    "source": "user",
+    "note": "Blank for user entry. Operating empty weight is not filled from the manual."
+  },
+  "maxPayloadLb": {
+    "value": 2440,
+    "source": "manual",
+    "note": "Manual specification page."
+  },
+  "maxPax": {
+    "value": 8,
+    "source": "user",
+    "note": "8 maximum, excluding 2 pilots."
+  },
+  "crewSeats": {
+    "value": 2,
+    "source": "manual",
+    "note": "Two pilots. Manual weight and balance page."
+  },
+  "ceilingFt": {
+    "value": 41000,
+    "source": "manual",
+    "note": "Manual specification page."
+  },
+  "takeoffDistanceFt": {
+    "value": 5032,
+    "source": "manual",
+    "note": "Flaps 15, sea level, 15 °C, 28,000 lb, dry. Manual takeoff table."
+  },
+  "landingDistanceFt": {
+    "value": 4420,
+    "source": "manual",
+    "note": "Factored landing field length, flaps 45, sea level, dry, 23,350 lb. Manual landing table."
+  },
+  "engines": {
+    "value": "2 × Honeywell TFE731-5BR-1H",
+    "source": "manual",
+    "note": "Manual engine section."
+  },
+  "mpiIntervalHours": {
+    "value": 2100,
+    "source": "manual",
+    "note": "MPI interval. Manual maintenance page."
+  },
+  "cziIntervalHours": {
+    "value": 4200,
+    "source": "manual",
+    "note": "CZI interval. Manual maintenance page."
+  },
+  "remarks": {
+    "value": "FlightFX Hawker 800XP (no winglets). Not 850XP, XP2, or XPR.",
+    "source": "manual",
+    "note": "docs/HAWKER_800XP.md. The sim add-on is the non-winglet baseline."
+  },
+  "maintenance": [
+    {
+      "id": "insp-bcd-400",
+      "label": "B / C / D check (400 h)",
+      "intervalHours": 400,
+      "source": "emerson-desk",
+      "note": "AMS hourly check. hawker800xp.ts hourlyCheckHours and docs/HAWKER_800XP.md. No mandatory 50 h inspection."
+    },
+    {
+      "id": "insp-e-check",
+      "label": "E check",
+      "intervalMonths": 12,
+      "intervalHours": 400,
+      "source": "emerson-desk",
+      "note": "AMS calendar, 12 months. Hour figure is 400 h/year from hawker800xp.ts, not a separate OEM hour limit. docs/HAWKER_800XP.md."
+    },
+    {
+      "id": "insp-f-check",
+      "label": "F check",
+      "intervalMonths": 24,
+      "intervalHours": 800,
+      "source": "emerson-desk",
+      "note": "AMS calendar, 24 months. Hour figure is 400 h/year from hawker800xp.ts. docs/HAWKER_800XP.md."
+    },
+    {
+      "id": "insp-g-check",
+      "label": "G check",
+      "intervalMonths": 48,
+      "intervalHours": 1600,
+      "source": "emerson-desk",
+      "note": "AMS calendar, 48 months. Hour figure is 400 h/year from hawker800xp.ts. docs/HAWKER_800XP.md."
+    },
+    {
+      "id": "insp-gear-oh",
+      "label": "Landing gear overhaul",
+      "intervalMonths": 144,
+      "intervalHours": 4800,
+      "source": "emerson-desk",
+      "note": "AMS calendar, 144 months. Hour figure is 400 h/year from hawker800xp.ts. docs/HAWKER_800XP.md."
+    },
+    {
+      "id": "insp-mpi",
+      "label": "MPI",
+      "intervalHours": 2100,
+      "source": "manual",
+      "note": "MPI interval. Manual maintenance page. aircraftBase.json."
+    },
+    {
+      "id": "insp-czi",
+      "label": "CZI",
+      "intervalHours": 4200,
+      "source": "manual",
+      "note": "CZI interval. Manual maintenance page. aircraftBase.json."
+    },
+    {
+      "id": "insp-tbo",
+      "label": "Engine overhaul (TBO)",
+      "source": "user",
+      "note": "not yet researched"
+    }
+  ]
+}
