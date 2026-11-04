@@ -1,0 +1,21 @@
+{
+  "schema": "northstar.catalog/1",
+  "entries": [
+    {
+      "id": "flightfx-hawker-800xp",
+      "displayName": "FlightFX Hawker 800XP",
+      "icaoType": "H25B",
+      "version": 1,
+      "file": "flightfx-hawker-800xp.json",
+      "sha256": "c689702061f89bb11b1d1d9b3414f07e00396b3ffc333e4da3489c7895d340c5"
+    },
+    {
+      "id": "flightfx-c750",
+      "displayName": "FlightFX Cessna Citation X",
+      "icaoType": "C750",
+      "version": 1,
+      "file": "flightfx-c750.json",
+      "sha256": "66ce7225d68b2317347be0ab534d311281cba80f2ac4fe33aeb1f1636ec5b417"
+    }
+  ]
+}
