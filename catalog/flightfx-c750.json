@@ -1,0 +1,158 @@
+{
+  "schema": "northstar.airframe/1",
+  "id": "flightfx-c750",
+  "version": 1,
+  "sha256": "66ce7225d68b2317347be0ab534d311281cba80f2ac4fe33aeb1f1636ec5b417",
+  "displayName": "FlightFX Cessna Citation X",
+  "icaoType": "C750",
+  "perfProfileId": "flightfx-c750",
+  "name": {
+    "value": "FlightFX Cessna Citation X",
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1. Catalog name is the sim add-on."
+  },
+  "cruiseKt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "longRangeCruiseKt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "averageCruiseKt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "cruiseMach": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "climbRateFpm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "descentRateFpm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "rangeNm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "ferryRangeNm": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "fuelBurnLbHr": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "maxFuelLb": {
+    "value": 13031,
+    "source": "manual",
+    "note": "Total of 1930 US gal at 6.75 lb/gal as printed. FlightFX Cessna Citation X User Manual V1.1 p.46. The per-tank pounds on the same page do not add up to this total."
+  },
+  "fuelDensityLbPerGal": {
+    "value": 6.75,
+    "source": "manual",
+    "note": "6.75 lb/gal as printed. FlightFX Cessna Citation X User Manual V1.1 p.46."
+  },
+  "mtowLb": {
+    "value": 36100,
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1 p.21."
+  },
+  "mlwLb": {
+    "value": 31800,
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1 p.21."
+  },
+  "mzfwLb": {
+    "value": 24400,
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1 p.21."
+  },
+  "mrwLb": {
+    "value": 36400,
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1 p.21."
+  },
+  "oewLb": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "maxPayloadLb": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "maxPax": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "crewSeats": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "ceilingFt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "takeoffDistanceFt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "landingDistanceFt": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "engines": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "mpiIntervalHours": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "cziIntervalHours": {
+    "value": null,
+    "source": "user",
+    "note": "not yet researched"
+  },
+  "remarks": {
+    "value": "Max crosswind 25 kt.",
+    "source": "manual",
+    "note": "FlightFX Cessna Citation X User Manual V1.1 p.22. Listed as Max Crosswind Component in a table the manual calls approximate."
+  },
+  "maintenance": [
+    {
+      "id": "insp-airframe",
+      "label": "Inspection",
+      "source": "user",
+      "note": "not yet researched"
+    },
+    {
+      "id": "insp-tbo",
+      "label": "Engine overhaul (TBO)",
+      "source": "user",
+      "note": "not yet researched"
+    }
+  ]
+}
