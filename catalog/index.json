@@ -16,6 +16,14 @@
       "version": 1,
       "file": "flightfx-c750.json",
       "sha256": "66ce7225d68b2317347be0ab534d311281cba80f2ac4fe33aeb1f1636ec5b417"
+    },
+    {
+      "id": "inibuilds-global-6000",
+      "displayName": "iniBuilds Global 6000",
+      "icaoType": "GLEX",
+      "version": 1,
+      "file": "inibuilds-global-6000.json",
+      "sha256": "79a7e6d02f552de098ded6476705d6f0d5b4218079961f635ef6da2ec033d321"
     }
   ]
 }
