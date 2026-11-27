@@ -2,7 +2,7 @@
   "schema": "northstar.airframe/1",
   "id": "inibuilds-global-6000",
   "version": 1,
-  "sha256": "79a7e6d02f552de098ded6476705d6f0d5b4218079961f635ef6da2ec033d321",
+  "sha256": "5d3dffa3a5d3c3fa61861bd843cc37529edab258642378587a26b30369ed9ec3",
   "displayName": "iniBuilds Global 6000",
   "icaoType": "GLEX",
   "perfProfileId": "inibuilds-global-6000",
@@ -57,9 +57,9 @@
     "note": "Real-world (Conklin & de Decker, 512 US gal/hr × 6.75 lb/gal)."
   },
   "maxFuelLb": {
-    "value": 45861,
-    "source": "manual",
-    "note": "Manual p.9, 20,802 kg. Real usable 45,050 lb + 172 lb unusable (FAA TCDS T00003NY)."
+    "value": 45200,
+    "source": "user",
+    "note": "Desk figure 45,200 lb. Manual capacity is 45,861 lb (20,802 kg). TCDS usable is 45,050 lb."
   },
   "fuelDensityLbPerGal": {
     "value": 6.75,
@@ -87,14 +87,14 @@
     "note": "Real-world (FAA TCDS T00003NY, maximum ramp weight 99,750 lb)."
   },
   "oewLb": {
-    "value": null,
+    "value": 52230,
     "source": "user",
-    "note": "Blank for user entry. Operating empty weight is not filled from the manual."
+    "note": "52,230 lb. Desk book empty weight. The manual does not publish a separate OEW."
   },
   "maxPayloadLb": {
-    "value": null,
-    "source": "user",
-    "note": "Blank for user entry. Not stated in the manual."
+    "value": 5770,
+    "source": "derived",
+    "note": "MZFW 58,000 lb minus OEW 52,230 lb."
   },
   "maxPax": {
     "value": 10,
@@ -102,9 +102,9 @@
     "note": "Up to 10 passengers. iniBuilds Global Jet manual v1.0 p.5 and EFB p.34. The add-on has 2 cabin versions. Real-world 12-17 typical, 19 certified."
   },
   "crewSeats": {
-    "value": 3,
+    "value": 2,
     "source": "user",
-    "note": "Real-world (2 pilots plus a cabin attendant. FAA TCDS minimum flight crew is 2; this row counts the attendant)."
+    "note": "TCDS minimum flight crew is 2. A cabin attendant is not a crew seat."
   },
   "ceilingFt": {
     "value": 51000,
@@ -117,9 +117,9 @@
     "note": "Real-world (Bombardier factsheet, 6,476 ft at sea level, ISA, maximum takeoff weight)."
   },
   "landingDistanceFt": {
-    "value": 4450,
-    "source": "derived",
-    "note": "Factored landing field length, same basis as the Hawker row. 2,670 ft unfactored × 1.667. Factsheet figure at sea level, ISA, maximum landing weight."
+    "value": 2670,
+    "source": "user",
+    "note": "Unfactored landing distance 2,670 ft at sea level, ISA, typical landing weight."
   },
   "engines": {
     "value": "2 × Rolls-Royce BR700-710A2-20",
